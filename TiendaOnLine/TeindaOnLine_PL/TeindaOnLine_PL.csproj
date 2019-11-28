@@ -67,29 +67,118 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Paginas\Inicio.aspx" />
+    <Content Include="CSS\base.css" />
+    <Content Include="CSS\css_loader.css" />
+    <Content Include="CSS\font-awesome.css" />
+    <Content Include="CSS\ie6.css" />
+    <Content Include="CSS\images\banner-descuentos.png" />
+    <Content Include="CSS\images\banner_ropa_supremebeing.png" />
+    <Content Include="CSS\images\big1.jpg" />
+    <Content Include="CSS\images\big2.jpg" />
+    <Content Include="CSS\images\big3.jpg" />
+    <Content Include="CSS\images\body.gif" />
+    <Content Include="CSS\images\bul.gif" />
+    <Content Include="CSS\images\cart-link.gif" />
+    <Content Include="CSS\images\cat.gif" />
+    <Content Include="CSS\images\h2-arr.gif" />
+    <Content Include="CSS\images\header.gif" />
+    <Content Include="CSS\images\ico1.gif" />
+    <Content Include="CSS\images\ico2.gif" />
+    <Content Include="CSS\images\ico3.gif" />
+    <Content Include="CSS\images\ico4.gif" />
+    <Content Include="CSS\images\info.png" />
+    <Content Include="CSS\images\logo.gif" />
+    <Content Include="CSS\images\next.gif" />
+    <Content Include="CSS\images\prev.gif" />
+    <Content Include="CSS\images\slide1.jpg" />
+    <Content Include="CSS\images\slide2.jpg" />
+    <Content Include="CSS\images\slide3.png" />
+    <Content Include="CSS\images\small1.jpg" />
+    <Content Include="CSS\images\small2.jpg" />
+    <Content Include="CSS\images\small3.jpg" />
+    <Content Include="CSS\images\small4.jpg" />
+    <Content Include="CSS\images\small5.jpg" />
+    <Content Include="CSS\images\small6.jpg" />
+    <Content Include="CSS\images\small7.jpg" />
+    <Content Include="CSS\layout.css" />
+    <Content Include="CSS\pantallaBloqueo.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\style_table.css" />
+    <Content Include="Iconos\bags.png" />
+    <Content Include="Iconos\basket_add.png" />
+    <Content Include="Iconos\basket_deny.png" />
+    <Content Include="Iconos\basket_edit.png" />
+    <Content Include="Iconos\basket_empty.png" />
+    <Content Include="Iconos\basket_full.png" />
+    <Content Include="Iconos\bullet_accept.png" />
+    <Content Include="Iconos\Exit.png" />
+    <Content Include="Iconos\Load.png" />
+    <Content Include="Iconos\login.png" />
+    <Content Include="Iconos\note_edit.png" />
+    <Content Include="Iconos\Profile.png" />
+    <Content Include="Iconos\regalo.png" />
+    <Content Include="Iconos\truck.png" />
+    <Content Include="Iconos\user_add.png" />
+    <Content Include="Imagenes\camisa1.png" />
+    <Content Include="Imagenes\camisa10.jpg" />
+    <Content Include="Imagenes\camisa2.jpg" />
+    <Content Include="Imagenes\camisa3.jpg" />
+    <Content Include="Imagenes\camisa4.png" />
+    <Content Include="Imagenes\camisa5.png" />
+    <Content Include="Imagenes\camisa6.jpg" />
+    <Content Include="Imagenes\camisa7.png" />
+    <Content Include="Imagenes\camisa8.png" />
+    <Content Include="Imagenes\camisa9.png" />
+    <Content Include="Imagenes\chompa1.jpg" />
+    <Content Include="Imagenes\chompa10.jpg" />
+    <Content Include="Imagenes\chompa2.jpg" />
+    <Content Include="Imagenes\chompa3.png" />
+    <Content Include="Imagenes\chompa4.jpg" />
+    <Content Include="Imagenes\chompa5.jpg" />
+    <Content Include="Imagenes\chompa6.jpg" />
+    <Content Include="Imagenes\chompa7.jpg" />
+    <Content Include="Imagenes\chompa8.jpg" />
+    <Content Include="Imagenes\chompa9.jpg" />
+    <Content Include="Imagenes\pantalon1.png" />
+    <Content Include="Imagenes\pantalon10.jpg" />
+    <Content Include="Imagenes\pantalon2.jpg" />
+    <Content Include="Imagenes\pantalon3.jpg" />
+    <Content Include="Imagenes\pantalon4.png" />
+    <Content Include="Imagenes\pantalon5.png" />
+    <Content Include="Imagenes\pantalon6.png" />
+    <Content Include="Imagenes\pantalon7.png" />
+    <Content Include="Imagenes\pantalon8.png" />
+    <Content Include="Imagenes\pantalon9.png" />
+    <Content Include="Imagenes\philco_pc-clean-no-logo.jpg" />
+    <Content Include="JS\jquery-1.4.1.min.js" />
+    <Content Include="JS\jquery-1.5.1.min.js" />
+    <Content Include="JS\jquery-func.js" />
+    <Content Include="JS\jquery.jcarousel.pack.js" />
+    <Content Include="JS\navegadores.js" />
+    <Content Include="JS\validaciones.js" />
+    <Content Include="Paginas\Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Paginas\Index.Master.cs">
-      <DependentUpon>Index.Master</DependentUpon>
+    <Compile Include="Paginas\Contenedor.Master.cs">
+      <DependentUpon>Contenedor.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Paginas\Index.Master.designer.cs">
-      <DependentUpon>Index.Master</DependentUpon>
+    <Compile Include="Paginas\Contenedor.Master.designer.cs">
+      <DependentUpon>Contenedor.Master</DependentUpon>
     </Compile>
-    <Compile Include="Paginas\Inicio.aspx.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Paginas\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Paginas\Inicio.aspx.designer.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Paginas\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Paginas\Index.Master" />
+    <Content Include="Paginas\Contenedor.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -98,8 +187,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
-    <Folder Include="JS\" />
     <Folder Include="Recursos\" />
   </ItemGroup>
   <PropertyGroup>
